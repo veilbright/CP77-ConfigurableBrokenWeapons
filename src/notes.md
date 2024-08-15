@@ -1,0 +1,6 @@
+- brokenChance seems to control how many working weapons are dropped total
+  - 0 means about 1 weapon drops per body
+  - 1 means no working weapons will drop
+- brokenOverrideChance seems to control how many weapons on the ground will be broken
+  - 0 means no weapons on the ground will be broken, assuming brokenChance is also 0
+  - 1 means every weapon on the ground will be broken
