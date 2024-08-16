@@ -1,3 +1,17 @@
 {
-  "modName": "Configurable Broken Weapons"
+  "modName": "Configurable Broken Weapons",
+  "settings.presets.apply.button.label": "Apply",
+  "settings.presets.apply.description": "Applies the settings from the preset selected above",
+  "settings.presets.apply.label": "Apply Preset",
+  "settings.presets.name": "Presets",
+  "settings.presets.noBroken.name": "No Broken Weapons",
+  "settings.presets.onlyBroken.name": "Only Broken Weapons",
+  "settings.presets.select.description": "Choose which preset to apply",
+  "settings.presets.select.label": "Select Preset",
+  "settings.presets.vanilla.name": "Vanilla",
+  "settings.settings.brokenChance.description": "Changes the base chance for a weapon to drop unbroken\n\nFor example, 0 will allow the most possible weapons to drop, while 1 will make all dropped weapons broken",
+  "settings.settings.brokenChance.label": "Broken Chance",
+  "settings.settings.brokenOverrideChance.description": "Seems to only affect the chance for a weapon that drops outside of a body to be broken\n\nSetting to 0 might cause less weapons that drop outside of a body to be broken, and setting to 1 will cause all weapons that drop outside of a body to be broken",
+  "settings.settings.brokenOverrideChance.label": "Broken Weapon Model Chance",
+  "settings.settings.name": "Settings"
 }

@@ -18,16 +18,15 @@ end
 ---@param settings table
 -- Updates TweakDB for settings changed
 function TweakManager:apply_settings(settings)
-
   -- broken_chance
-  if broken_chance ~= settings.brokenChance then
-    broken_chance = settings.brokenChance
+  if broken_chance ~= settings.broken_chance then
+    broken_chance = settings.broken_chance
     set_broken_chance()
   end
 
   -- broken_override_chance
-  if broken_override_chance ~= settings.brokenOverrideChance then
-    broken_override_chance = settings.brokenOverrideChance
+  if broken_override_chance ~= settings.broken_override_chance then
+    broken_override_chance = settings.broken_override_chance
     set_broken_override_chance()
   end
 end

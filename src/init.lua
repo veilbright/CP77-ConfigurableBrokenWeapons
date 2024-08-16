@@ -1,3 +1,6 @@
+require "./utils/log_util"
+require "./utils/debug_util"
+
 local ConfigurableBrokenWeapons = {}
 
 ModName = "Configurable Broken Weapons"
@@ -6,7 +9,7 @@ DEBUG = true
 local logtag = "Init"
 
 -- Global Managers
-LocalizationManager = require("utils.localization_util")
+LocalizationUtil = require("./utils/localization_util")
 
 -- Managers
 local SettingsManager = require("./core/settings_manager")
@@ -16,7 +19,7 @@ local TweakManager = require("./core/tweak_manager")
 registerForEvent("onInit", function()
     LogDebug(logtag, "Start initialization")
 
-    LocalizationManager:initialize()
+    LocalizationUtil:initialize()
     SettingsManager:initialize(TweakManager)
 
     LogDebug(logtag, "End initialization")

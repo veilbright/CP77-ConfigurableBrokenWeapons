@@ -1,0 +1,16 @@
+[
+  {
+    "key": "settings.presets.vanilla.name",
+    "broken_chance": 0.6,
+    "broken_override_chance": 0.5
+  },
+  {
+    "key": "settings.presets.noBroken.name",
+    "broken_chance": 0.0,
+    "broken_override_chance": 0.0
+  },
+  {
+    "key": "settings.presets.onlyBroken.name",
+    "broken_chance": 1.0
+  }
+]
