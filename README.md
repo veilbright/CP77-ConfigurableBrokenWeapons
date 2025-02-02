@@ -1,4 +1,4 @@
-# Configurable Carry Capacity
+# Configurable Broken Weapons
 #### A mod for Cyberpunk 2077
 This mod adds a simple menu to modify the rate that broken weapons are dropped by NPCs in Cyberpunk 2077.
 ### Requirements
